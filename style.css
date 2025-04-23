@@ -1,11 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@800&family=Special+Gothic&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
 body{
-    height: 100vh;
+    text-align: center;
     display: flex;
-    justify-content: center; /* centraliza horizontalmente */
-    align-items: center;     /* centraliza verticalmente */
     flex-direction: column;
+}
+header{
+    background-color: #f4f4f4;
+}
+.cabeçalho{
+   display: flex;
+    justify-content: left;
+    max-width: 565px;
+    padding: 1.5rem;
+}
+.cabeçalho img{
+    width: 90px;
+    padding: 1.3rem;
+}
+.cabeçalho p{
+    text-align: left;
+    padding-left: 1.3rem;
+}
+.conteudo_livro{
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
+.conteudo_livro h4{
+    text-align: left;
+    color: #268dc6;
+    padding-bottom: 1rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.conteudo_livro h1{
+    max-width: 400px;
+    text-align: justify;
+    padding-bottom: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.conteudo_livro P{
+    font-weight: bold;
+    padding-bottom: 1rem;
+    
 }

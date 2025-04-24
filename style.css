@@ -29,7 +29,10 @@ header{
 display: flex;
 flex-direction: row;
 justify-content: center;
-
+padding-top: 2rem;
+}
+.conteudo_livro img{
+    margin-bottom: -20px;
 }
 .conteudo_livro h4{
     text-align: left;
@@ -48,9 +51,32 @@ justify-content: center;
     padding-bottom: 1rem;
 }
 .conteudo_livro input[type="button"] {
-    padding: 10px 20px;
-    background-color: #7ddaef;
+    padding: 10px 20px ;
+    background-color: #f06829;
     border: none;
-    border-radius: 8px;
+    color: #ffffff;
+    border-radius: 1rem;
     cursor: pointer;
+}
+.celebrate{
+    padding: 2.5rem 30%;
+    text-align: left;
+}
+.celebrate h1{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.celebrate p{
+    line-height: 2.5rem;
+    font-size:x-small;
+}
+.list{
+    text-align: justify;
+
+}
+.list h4{
+    color: #268dc6;
+}
+.list ul li{
+    align-items: flex-start;
 }

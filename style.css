@@ -47,7 +47,10 @@ justify-content: center;
     font-weight: bold;
     padding-bottom: 1rem;
 }
-.conteudo_livro input[type=button]{
-    padding: 2rem;
-    background-color: #268dc6;
+.conteudo_livro input[type="button"] {
+    padding: 10px 20px;
+    background-color: #7ddaef;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
 }

@@ -34,30 +34,37 @@ padding-top: 2rem;
 .conteudo_livro img{
     margin-bottom: -20px;
 }
-.conteudo_livro h4{
+.LegendaConteudo_livro{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width:400px;
+}
+.LegendaConteudo_livro h4{
     text-align: left;
     color: #268dc6;
     padding-bottom: 1rem;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.conteudo_livro h1{
+.LegendaConteudo_livro h1{
     max-width: 400px;
     text-align: justify;
     padding-bottom: 1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.conteudo_livro P{
+.LegendaConteudo_livro P{
     font-weight: bold;
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    text-align: justify;
 }
-.conteudo_livro input[type="button"] {
+.LegendaConteudo_livro input[type="button"] {
     padding: 10px 20px ;
     background-color: #f06829;
     border: none;
     color: #ffffff;
     border-radius: 1rem;
     cursor: pointer;
-}
+    }
 .celebrate{
     padding: 2.5rem 30%;
     text-align: left;
@@ -71,12 +78,36 @@ padding-top: 2rem;
     font-size:x-small;
 }
 .list{
-    text-align: justify;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
 }
 .list h4{
     color: #268dc6;
+    padding-left:8rem ;
+    padding-bottom: 1rem;
 }
-.list ul li{
-    align-items: flex-start;
+.list ul {
+    list-style: none; 
+    padding-left: 0;
+    padding-bottom: 3rem;
+  }
+
+  .list ul li::before {
+    content: "✔";
+    color: #268dc6;
+    margin-right: 8px; 
+}
+.share{
+    display: flex;
+   
+}
+.share p{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.share img{
+    width:60px;
 }

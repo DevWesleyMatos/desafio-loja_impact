@@ -109,5 +109,76 @@ padding-top: 2rem;
     align-items: center;   
 }
 .share img{
-    width:60px;
+    width:64px;
+}
+.formulario_geral{
+    background-color: #f2f6f6;
+}
+.tituloForm {
+    background-color: #268dc6;
+    max-width: 100%;
+    padding: 4rem;
+    margin: 0;
+    color: #ffffff;
+    font-size: larger;
+    display: flex;
+}
+.tituloForm h3 {
+    margin: 0 auto;
+    max-width: 450px;
+}
+.formulario {
+    padding: 2rem 2rem 1rem;
+    background-color: #ffffff;
+    max-width: 600px;
+    margin:-2.5rem auto 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+form label {
+    font-weight: 600; 
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+}
+form select{
+    margin-bottom: 1rem ;
+}
+form input{
+    border-radius: 5px ;
+    border: 1px solid #ccc;
+    padding: 0.8rem;
+}
+.input_check {
+    display: flex;
+    gap: 0.5rem;
+}
+form input[type="submit"]{
+    padding: 10px 20px ;
+    background-color: #e63d27;
+    border: none;
+    color: #ffffff;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin: 0 auto;
+}
+.box{
+    display: flex ;
+    justify-content: space-between;
+    padding: 5rem;
+    background-color:#1d1d1f;
+    margin-top: 4rem;
+}
+.box ul{
+    list-style: none;
+    text-align: left;
+    color: #b1b8bb;
+    
+    
+}
+.box a{
+    color: #a09c9c;
 }

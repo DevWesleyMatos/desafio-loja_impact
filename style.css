@@ -217,4 +217,35 @@ padding: 0 1rem;
 .boxP3{
     border: solid ;
     display: flex;
+    justify-content: space-between;
 }
+.boxP3 .coluna1 img{
+    width:64px;
+}
+.boxP3 .coluna1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: #e63d27 solid;
+}
+.boxP3 .coluna1 cite{
+    color: #a09c9c;
+    text-align: left;
+}
+.boxP3 .coluna2 img{
+    width:128px;
+    border: #f06829 solid;
+}
+.boxP3 .coluna2{
+    border: yellow solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.boxP3 .coluna2 h6{
+    border: #268dc6 solid;
+}
+
+

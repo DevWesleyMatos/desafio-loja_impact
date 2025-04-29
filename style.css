@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@800&family=Special+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@200&family=Special+Gothic&display=swap');
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan&family=Special+Gothic&display=swap');
+</style>
 *{
     margin: 0;
     padding: 0;
@@ -24,6 +27,7 @@ header{
 .cabeçalho p{
     text-align: left;
     padding-left: 1.3rem;
+    font-family: "League Spartan", sans-serif;
 }
 .conteudo_livro{
 display: flex;
@@ -66,22 +70,27 @@ padding-top: 2rem;
     cursor: pointer;
     }
 .celebrate{
-    padding: 2.5rem 30%;
+    padding: 2.5rem 30% 0;
     text-align: left;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 .celebrate h1{
     text-align: center;
     padding-bottom: 1rem;
 }
 .celebrate p{
-    line-height: 2.5rem;
+    line-height: 1.5rem;
     font-size:x-small;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 .list{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: left;
+    margin-top: 0;
 }
 .list h4{
     color: #268dc6;
@@ -165,20 +174,47 @@ form input[type="submit"]{
     cursor: pointer;
     margin: 0 auto;
 }
-.box{
-    display: flex ;
-    justify-content: space-between;
+.boxGeral{
     padding: 5rem;
-    background-color:#1d1d1f;
+    background-color:;
     margin-top: 4rem;
 }
-.box ul{
+.boxP1{
+    display: flex ;
+    justify-content: space-between;
+
+}
+.boxP1 ul{
     list-style: none;
     text-align: left;
     color: #b1b8bb;
-    
+}
+.boxP1 a{
+    color: #a09c9c;
+    text-decoration: none;
+    line-height: 2rem;
+}
+.boxP2{
     
 }
-.box a{
-    color: #a09c9c;
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logos img{
+width: 24px;
+padding: 0 1rem;
+}
+.logos .linha1{
+    width: 30%;
+    border-bottom: 1px solid #000000;
+}
+.logos .linha2{
+    width: 30%;
+    border-bottom: 1px solid #000000;
+}
+.boxP3{
+    border: solid ;
+    display: flex;
 }

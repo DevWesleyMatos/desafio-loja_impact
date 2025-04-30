@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@200&family=Special+Gothic&display=swap');
-<style>
+
 @import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan&family=Special+Gothic&display=swap');
-</style>
+
 *{
     margin: 0;
     padding: 0;
@@ -30,13 +30,13 @@ header{
     font-family: "League Spartan", sans-serif;
 }
 .conteudo_livro{
-display: flex;
-flex-direction: row;
-justify-content: center;
-padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 2rem;
 }
 .conteudo_livro img{
-    margin-bottom: -20px;
+    margin-bottom: -30px;
 }
 .LegendaConteudo_livro{
     display: flex;
@@ -54,7 +54,7 @@ padding-top: 2rem;
     max-width: 400px;
     text-align: justify;
     padding-bottom: 1rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 .LegendaConteudo_livro P{
     font-weight: bold;
@@ -101,16 +101,14 @@ padding-top: 2rem;
     list-style: none; 
     padding-left: 0;
     padding-bottom: 3rem;
-  }
-
-  .list ul li::before {
+}
+.list ul li::before {
     content: "✔";
     color: #268dc6;
     margin-right: 8px; 
 }
 .share{
     display: flex;
-   
 }
 .share p{
     display: flex;
@@ -176,13 +174,12 @@ form input[type="submit"]{
 }
 .boxGeral{
     padding: 5rem;
-    background-color:;
+    background-color: ;
     margin-top: 4rem;
 }
 .boxP1{
     display: flex ;
     justify-content: space-between;
-
 }
 .boxP1 ul{
     list-style: none;
@@ -194,23 +191,31 @@ form input[type="submit"]{
     text-decoration: none;
     line-height: 2rem;
 }
-.boxP2{
-    
+.boxP1 .box4 .lojas{
+    display: flex;
+    flex-direction: column;
+    margin: 5rem;
+    padding:0 ;
+    border: #268dc6 solid;
 }
-.logos{
+.boxP1 .box4 .lojas img{
+    width: 128px;
+    padding: 0;
+}
+.boxP2 .logos{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.logos img{
+.boxP2 .logos img{
 width: 24px;
 padding: 0 1rem;
 }
-.logos .linha1{
+.boxP2 .logos .linha1{
     width: 30%;
     border-bottom: 1px solid #000000;
 }
-.logos .linha2{
+.boxP2 .logos .linha2{
     width: 30%;
     border-bottom: 1px solid #000000;
 }
@@ -218,6 +223,7 @@ padding: 0 1rem;
     border: solid ;
     display: flex;
     justify-content: space-between;
+    height: 150px;
 }
 .boxP3 .coluna1 img{
     width:64px;
@@ -232,20 +238,28 @@ padding: 0 1rem;
     color: #a09c9c;
     text-align: left;
 }
-.boxP3 .coluna2 img{
-    width:128px;
-    border: #f06829 solid;
-}
 .boxP3 .coluna2{
     border: yellow solid;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.boxP3 .coluna2 img{
+    width:128px;
+    border: #f06829 solid;
+}
+.boxP3 .coluna2 p{
+    border: #268dc6 solid;
+    width: 350px;
+    font-size: small;
     margin: 0;
 }
-.boxP3 .coluna2 h6{
-    border: #268dc6 solid;
+.boxP3 .coluna3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
 
 

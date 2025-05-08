@@ -152,7 +152,9 @@ form label {
     margin-bottom: 0.3rem;
 }
 form select{
+    padding: 0.3rem;
     margin-bottom: 1rem ;
+    background-color: #c6ced1;
 }
 form input{
     border-radius: 5px ;
@@ -198,7 +200,7 @@ form input[type="submit"]{
 .boxP1 .box4 .lojas{
     display: flex;
     flex-direction: column;
-    margin: 5rem;
+    margin: 5rem 0;
     padding:0 ;
     border: #268dc6 solid;
 }

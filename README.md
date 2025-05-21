@@ -18,4 +18,5 @@ Reproduzir visualmente uma página de loja virtual, focando em estrutura semânt
 ## 👨‍💻 Autor
 
 Wesley Matos  
-(https://www.linkedin.com/in/wesley-matos-dev/)
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://github.com/DevWesleyMatos)
+
